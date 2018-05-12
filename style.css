@@ -2,15 +2,19 @@ body {
     font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
     color: #777;
     background: #777;
-    width: 960px;
+    width: 1000px;
     font-size: 18px;
-    margin-left: 50px;
+    margin-left: 150px;
 }
 
 * {
     box-sizing: border-box;
     text-align: center;
   }
+
+header {
+    width: 100%;
+}
 
 #header {
     background: #ebebeb;
@@ -32,8 +36,7 @@ aside {
     background: #ebebeb;
     float: right;
     width: 495px;
-    height: 500px;
-    padding: 10px;
+    height: 300px;
 }
 
 section {
@@ -41,10 +44,5 @@ section {
     background: #ebebeb;
     float: left;
     width: 495px;
-    height: 515px;
-    padding: 10px;
-}
-
-#header {
-    padding: 5px;
+    height: 375px;
 }
